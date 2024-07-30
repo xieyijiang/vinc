@@ -1,0 +1,20 @@
+:root {
+  --color-text: #000000;
+  --color-background: #ffffff;
+}
+
+[data-theme='dark'] {
+  --color-text: #ffffff;
+  --color-background: #18181C;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.top-bar {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
