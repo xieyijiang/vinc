@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/components/Home.vue'
 import SignIn from '@/components/SignIn.vue'
-import { adminRoutes } from './admin_routes'
+// import { adminRoutes } from './admin_routes'
 
 const basicRoutes = [
   {
@@ -19,7 +19,7 @@ const basicRoutes = [
 
 const fullRoutes = [
   ...basicRoutes,
-  ...adminRoutes
+
 ]
 
 const router = createRouter({
