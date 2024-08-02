@@ -7,6 +7,7 @@
     "add:comp": "node ./scripts/comp.js",
     "add:store": "node ./scripts/store.js",
     "add:route": "node ./scripts/route.js",
+    "add:env": "node ./scripts/env.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"

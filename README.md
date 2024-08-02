@@ -32,7 +32,7 @@ npm run add:comp admin/Home admin/home
 npm run add:comp admin/User admin/user
 # 可选组件
 npm run add:comp TopNavigation top_navigation
-npm run add:comp ThemeSwithcer theme_switcher
+npm run add:comp ThemeSwitcher theme_switcher
 npm run add:comp LocaleSwitcher locale_switcher
 ```
 
